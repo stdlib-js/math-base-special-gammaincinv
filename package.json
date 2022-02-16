@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-gammaincinv",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Inverse incomplete gamma function.",
   "license": "Apache-2.0",
   "author": {
