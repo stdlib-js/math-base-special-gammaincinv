@@ -56,30 +56,38 @@ Again, for given `p` and `a` the function returns the `x` which satisfies `p = Q
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-gammaincinv
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var gammaincinv = require( '@stdlib/math-base-special-gammaincinv' );
+gammaincinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var gammaincinv = require( 'path/to/vendor/umd/math-base-special-gammaincinv/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.gammaincinv;
+})();
+</script>
 ```
 
 #### gammaincinv( p, s\[, upper ] )
@@ -130,9 +138,14 @@ y = gammaincinv( -0.5, 1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var gammaincinv = require( '@stdlib/math-base-special-gammaincinv' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var a;
 var i;
@@ -143,6 +156,11 @@ for ( i = 0; i < 100; i++ ) {
     a = randu() * 50.0;
     console.log( 'p: %d, \t a: %d, \t P^(-1)(p, a): %d', p.toFixed( 4 ), a.toFixed( 4 ), gammaincinv( p, a ).toFixed( 4 ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -239,13 +257,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/umd
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/umd
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/umd
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/umd
 
 <!-- </related-links> -->
 
