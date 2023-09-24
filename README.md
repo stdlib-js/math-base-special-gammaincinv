@@ -82,7 +82,7 @@ Again, for given `p` and `a` the function returns the `x` which satisfies `p = Q
 ## Usage
 
 ```javascript
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@deno/mod.js';
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.1.0-deno/mod.js';
 ```
 
 #### gammaincinv( p, s\[, upper ] )
@@ -135,7 +135,7 @@ y = gammaincinv( -0.5, 1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@deno/mod.js';
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.1.0-deno/mod.js';
 
 var a;
 var i;
