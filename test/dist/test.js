@@ -31,18 +31,18 @@ var gammaincinv = require( './../../dist' );
 
 // FIXTURES //
 
-var arg1 = require( './../..xtures/r/arg1.json' );
-var arg2 = require( './../..xtures/r/arg2.json' );
-var expected = require( './../..xtures/r/expected.json' );
-var smallArg1 = require( './../..xtures/r/small_arg1.json' );
-var smallArg2 = require( './../..xtures/r/small_arg2.json' );
-var smallExpected = require( './../..xtures/r/small_expected.json' );
-var largeArg1 = require( './../..xtures/r/large_arg1.json' );
-var largeArg2 = require( './../..xtures/r/large_arg2.json' );
-var largeExpected = require( './../..xtures/r/large_expected.json' );
-var upperArg1 = require( './../..xtures/r/upper_arg1.json' );
-var upperArg2 = require( './../..xtures/r/upper_arg2.json' );
-var upperExpected = require( './../..xtures/r/upper_expected.json' );
+var arg1 = require( './../fixtures/r/arg1.json' );
+var arg2 = require( './../fixtures/r/arg2.json' );
+var expected = require( './../fixtures/r/expected.json' );
+var smallArg1 = require( './../fixtures/r/small_arg1.json' );
+var smallArg2 = require( './../fixtures/r/small_arg2.json' );
+var smallExpected = require( './../fixtures/r/small_expected.json' );
+var largeArg1 = require( './../fixtures/r/large_arg1.json' );
+var largeArg2 = require( './../fixtures/r/large_arg2.json' );
+var largeExpected = require( './../fixtures/r/large_expected.json' );
+var upperArg1 = require( './../fixtures/r/upper_arg1.json' );
+var upperArg2 = require( './../fixtures/r/upper_arg2.json' );
+var upperExpected = require( './../fixtures/r/upper_expected.json' );
 
 var i;
 var v;
