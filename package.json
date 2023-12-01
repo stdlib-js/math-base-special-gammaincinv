@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/fs-write-file": "^0.1.1",
     "@stdlib/math-base-assert-is-finite": "^0.1.1",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.1.0",
