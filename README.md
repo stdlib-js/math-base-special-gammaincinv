@@ -82,6 +82,11 @@ Again, for given `p` and `a` the function returns the `x` which satisfies `p = Q
 ## Usage
 
 ```javascript
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gammaincinv/tags). For example,
+
+```javascript
 import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.2.2-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ y = gammaincinv( -0.5, 1.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.2.2-esm/index.mjs';
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@esm/index.mjs';
 
 var a;
 var i;
