@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-04-11)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`9ba3f82`](https://github.com/stdlib-js/stdlib/commit/9ba3f820c5e048c65a7aadb97ae178b40774b315) - **chore:** update random value generation and test messages [(#6343)](https://github.com/stdlib-js/stdlib/pull/6343) _(by Harsh)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
@@ -26,8 +27,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
