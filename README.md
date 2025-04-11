@@ -54,7 +54,7 @@ P( x, a ) = \frac{\gamma(a,x)}{\Gamma(a)} = \frac{1}{\Gamma(a)} \int_0^x t^{a-1}
 
 Specifically, for given `p` and `a` it finds the `x` such that `p =  P(x, a)`.
 
-The function can also be used to invert the upper incomplete gamma function, which is defined as follows:  
+The function can also be used to invert the upper incomplete gamma function, which is defined as follows:
 
 <!-- <equation class="equation" label="eq:upper_incomplete_gamma" align="center" raw="Q( x, a ) = \frac{\Gamma(a,x)}{\Gamma(a)} = \frac{1}{\Gamma(a)} \int_x^\infty t^{a-1} e^{-t} \; dt" alt="Regularized upper incomplete gamma function."> -->
 
@@ -75,14 +75,32 @@ Again, for given `p` and `a` the function returns the `x` which satisfies `p = Q
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-gammaincinv
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@deno/mod.js';
+var gammaincinv = require( '@stdlib/math-base-special-gammaincinv' );
 ```
 
 #### gammaincinv( p, s\[, upper ] )
@@ -134,18 +152,17 @@ y = gammaincinv( -0.5, 1.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@deno/mod.js';
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
+var gammaincinv = require( '@stdlib/math-base-special-gammaincinv' );
 
-var a;
-var i;
-var p;
+var opts = {
+    'dtype': 'float64'
+};
+var p = uniform( 100, 0.0, 1.0, opts );
+var a = uniform( 100, 0.0, 50.0, opts );
 
-for ( i = 0; i < 100; i++ ) {
-    p = randu();
-    a = randu() * 50.0;
-    console.log( 'p: %d, \t a: %d, \t P^(-1)(p, a): %d', p.toFixed( 4 ), a.toFixed( 4 ), gammaincinv( p, a ).toFixed( 4 ) );
-}
+logEachMap( 'p: %0.4f, \t a: %0.4f, \t P^(-1)(p, a): %0.4f', p, a, gammaincinv );
 ```
 
 </section>
@@ -178,7 +195,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -245,13 +262,13 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/deno
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/deno
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/deno
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/deno
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
 
 <!-- </related-links> -->
 
