@@ -50,7 +50,7 @@
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-gamma": "^0.3.0",
     "@stdlib/math-base-special-gammainc": "^0.2.2",
-    "@stdlib/math-base-special-gammaln": "^0.2.2",
+    "@stdlib/math-base-special-gammaln": "^0.3.0",
     "@stdlib/math-base-special-ln": "^0.2.4",
     "@stdlib/math-base-special-min": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/fs-write-file": "^0.2.2",
     "@stdlib/math-base-assert-is-finite": "^0.2.2",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
