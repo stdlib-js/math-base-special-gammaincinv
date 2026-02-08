@@ -82,7 +82,7 @@ Again, for given `p` and `a` the function returns the `x` which satisfies `p = Q
 ## Usage
 
 ```javascript
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@esm/index.mjs';
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.2.3-esm/index.mjs';
 ```
 
 #### gammaincinv( p, s\[, upper ] )
@@ -141,7 +141,7 @@ y = gammaincinv( -0.5, 1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@esm/index.mjs';
+import gammaincinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammaincinv@v0.2.3-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
