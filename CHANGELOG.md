@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-08-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8e4bd02`](https://github.com/stdlib-js/stdlib/commit/8e4bd02646c8926e8a68e82ce6f558d128269f54) - **test:** migrate `math/base/special/gammaincinv` to ULP-based assertions [(#14752)](https://github.com/stdlib-js/stdlib/pull/14752) _(by Aryan kumar, Athan Reines)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - **feat:** add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
@@ -36,8 +37,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
+-   Athan Reines
 -   Mara Averick
 -   Om-A-osc
 -   Philipp Burckhardt
