@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`01425e2`](https://github.com/stdlib-js/stdlib/commit/01425e27988c55cb9ace3469f7854bdf90e58371) - **docs:** add JSDoc examples [(#15948)](https://github.com/stdlib-js/stdlib/pull/15948) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8e4bd02`](https://github.com/stdlib-js/stdlib/commit/8e4bd02646c8926e8a68e82ce6f558d128269f54) - **test:** migrate `math/base/special/gammaincinv` to ULP-based assertions [(#14752)](https://github.com/stdlib-js/stdlib/pull/14752) _(by Aryan kumar, Athan Reines)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - **feat:** add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982) _(by Om-A-osc, Philipp Burckhardt)_
